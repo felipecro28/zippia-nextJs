@@ -27,7 +27,7 @@ export default function Jobs() {
 
             </div>
         </div>
-        <Card filter={companyFilter} pastWeek={pastWeek} api={process.env.API_LINK} />
+        <Card filter={companyFilter} pastWeek={pastWeek} />
     </div>
   )
 }   
