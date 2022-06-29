@@ -1,0 +1,51 @@
+.jobsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobsDiv h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 54px;
+}
+
+.searchDiv{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.searchDiv label{
+    display: none;
+}
+
+
+.searchDiv input{
+    height: 40px;
+    width: 250px;
+    max-width: 40%;
+    text-align: center;
+}
+
+.pastWeekDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.pastWeekDiv input{
+    width: 30px;
+}
+
+#pastWeekLabel{
+    font-size: 12px;
+    display: flex;
+    color: black;
+}
